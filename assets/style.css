@@ -74,6 +74,11 @@ main {
             a {
                 color: var(--gray950);
                 text-decoration: none;
+                transition: all 350ms ease-in-out;
+
+                &:hover {
+                    color: var(--yellow);
+                }
             }
         }
 
